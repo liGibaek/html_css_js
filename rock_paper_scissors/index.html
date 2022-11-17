@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="buttons" style="display: flex; justify-content: center; width: 100%;">
+        <div id="playerScore" style="position: absolute; left: 0" ></div>
+        <button class="rpsButton" value="Rock">✊🏼</button>
+        <button class="rpsButton" value="Paper">🖐🏼</button>
+        <button class="rpsButton" value="Scissors">✌🏼</button>
+        <button id="endGameButton" style="position: absolute; right: 0">❌</button>
+    </div>
+    <div class="resultContainer">
+        <div id="hands" style="display: flex; align-items: center;"></div>
+        <div id="result"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
